@@ -1,0 +1,85 @@
+/*Regla css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 2px solid yellow;
+}
+h1{
+    color: blue;
+    background-color: blueviolet;
+    border: 2px solid greenyellow;
+    text-align: right;
+}
+
+input{
+
+
+}
+a{
+    color: white;
+    border: 2px solid black;
+    border-left: 6px solid red;
+    background-color: royalblue;
+    padding: 20px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat-x;
+    background-position: 0% 16%;
+
+    /*border-top: 10px dashed blue;
+    border: right 2px solid violet;*/
+}
+
+p{
+    color: greenyellow;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*text-decoration:line-through black;*/
+    text-transform:capitalize;
+    background-color: red;
+
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 16px;
+    
+    border: 2px solid red;
+    border-radius: 20px;
+    
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 80px;
+
+    padding: 30px;
+    margin: 20px;
+    /*background-image: url(../img/fondo.jpg);*/
+    box-shadow: 3px 5px black;
+    
+
+
+}
+img{
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    box-shadow: 3px 5px black;
+
+}
+article p {
+    background-color: green;
+}
+div p{
+    background-color: pink;
+}
+nav a {
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(0,255,0);
+}
